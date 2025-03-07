@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar ul{
+    display: flex;
+   
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.navbar ul li a:hover{
+    color: antiquewhite;
+}
+/* thebeggiginning */
+a{
+    color: rgb(18, 17, 16);
+    text-decoration: none;
+}
