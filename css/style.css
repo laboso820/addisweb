@@ -24,4 +24,25 @@
 a{
     color: rgb(18, 17, 16);
     text-decoration: none;
+    font-weight: bold;
+}
+.home{
+    background-color: rgb(72, 100, 124);
+    height:90vh;
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+    border: 20px;
+    display: flex;
+    align-items: center;
+    background-image: url('/images/bg.jpg')
+
+}
+.cont{
+    color: black;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: aqua;
+    margin-top: 40px;
 }
