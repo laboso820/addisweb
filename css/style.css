@@ -4,13 +4,14 @@
 }
 .navbar{
     display: flex;
-    background-color: aqua;
+    background-color: gray;
     align-items: center;
     justify-content: space-between;
     
 }
 .navbar ul{
     display: flex;
+    gap: 80px;
    
 }
 .navbar ul li{
@@ -33,16 +34,66 @@ a{
     font-size: large;
     text-align: center;
     padding: 20px;
-    border: 20px;
+    /* border: 20px; */
     display: flex;
     align-items: center;
     background-image: url('/images/bg.jpg')
 
 }
 .cont{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
     color: black;
     padding: 2px;
     border-radius: 5px;
     background-color: aqua;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
 }
+.services{
+    display: flex;
+    margin-right: 20px;
+    height: 90vh;
+    align-items: center;
+    border: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: rgb(210, 222, 222);
+}
+img{
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.service-info{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    
+ }
+.services .service-info:hover{
+    transition: 1px;
+    cursor:pointer;
+  position:relative;
+  padding:10px 20px;
+  background:aqua;
+  font-size:20px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  transition:all 1s;
+  &:after,&:before{
+    width:10px;
+    height:10px;
+    position:absolute;
+    border :0px solid #fff;
+    transition:all 1s
+ }
+ @media (max-width:768px){
+.services .service-info{
+    display: flex;
+    flex-direction: row;
+}  
+ }
