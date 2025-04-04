@@ -94,3 +94,7 @@ img{
     flex-direction: row;
 }  
  }
+ footer{
+    display: flex;
+align-items: center;
+ }
