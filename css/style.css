@@ -11,12 +11,14 @@
 }
 .navbar ul{
     display: flex;
-    gap: 50px;
+    gap: 20px;
+    margin-right: 20px;
    
 }
 .navbar ul li{
     list-style: none;
     margin-left: 20px;
+    margin-right: 20px;
 }
 .navbar ul li a:hover{
     color: antiquewhite;
@@ -33,12 +35,16 @@ a{
     color: white;
     font-size: large;
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
     /* border: 20px; */
     display: flex;
     align-items: center;
-    background-image: url('/images/bg.jpg')
+    background-image: url('/images/engineer.jpeg');
 
+}
+.home-info{
+    font-size: 20px;
+    color: rgb(10, 10, 11);
 }
 .cont{
     display: inline-block;
@@ -53,13 +59,8 @@ a{
 }
 .services{
     display: flex;
-    margin-right: 20px;
-    /* height: 90vh; */
-    align-items: center;
-    border: 20px;
-    margin-right: 20px;
     padding: 20px;
-    background-color: rgb(210, 222, 222);
+    background-color: rgb(210, 222, 222)
 }
 img{
     width: 300px;
@@ -75,11 +76,11 @@ img{
     
  }
 .services .service-info:hover{
-  transition: 1px;
+  transition: 0.5px;
   cursor:pointer;
   position:relative;
   padding:10px 20px;
-  background:aqua;
+  background:rgb(140, 142, 142);
   font-size:20px;
   border-top-right-radius:10px;
   border-bottom-left-radius:10px;
@@ -88,11 +89,12 @@ img{
   transition:all 1s;
   
  }
- @media (max-width:768px){
+ @media (max-width:480px){
 .services{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
+    align-items: center;
 }
 .navbar ul{
     display: flex;
@@ -105,4 +107,5 @@ img{
  footer{
     display: flex;
 justify-content: center;
+background-color:aquamarine
  }
