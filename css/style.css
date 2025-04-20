@@ -139,7 +139,7 @@ img{
     margin:20px  */
 }
 .navbar ul{
-    display: flex;
+    display: none;
     gap: 20px;
    justify-content: center;
    justify-content: left;
