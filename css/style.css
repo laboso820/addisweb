@@ -138,6 +138,11 @@ img{
     /* border-radius: 100px;
     margin:20px  */
 }
+.contact{
+    display: flex;
+    background-color: green;
+}
+
 .navbar ul{
     display: none;
     gap: 20px;
